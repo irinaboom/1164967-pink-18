@@ -1,7 +1,7 @@
 # Личный проект «Пинк» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Бумбеева Ирина](https://up.htmlacademy.ru/adaptive/18/user/1164967).
-* Наставник: `Неизвестно`.
+* Наставник: `Неизвестно-1`.
 
 ---
 
