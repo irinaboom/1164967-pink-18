@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Пинк</title>
+  </head>
+  <body>
+
+    <header class="page-header">
+      <a class="page-header__logo">
+      	<img class="page-header__logo-image" src="img/logotype-img.svg" width=" " height=" " alt="Pink">
+		<img class="page-header__logo-name" src="img/logotype-name.svg" width=" " height=" " alt="Pink">
+      </a>
+      <nav class="main-nav">
+		<button class="main-nav__toggle" type="button">Открыть меню</button>
+		<div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item">
+            <a href="index.html">Главная</a>
+          </li>
+          <li class="site-list__item site-list__item--active">
+            <a>Фотографии</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Конкурс</a>
+          </li>
+          <li class="site-list__item">
+            <a href="https://htmlacademy.ru/">HTML Academy</a>
+          </li>
+        </ul>
+		</div>
+      </nav>
+    </header>
+	  
+	<main class="page-main">
+	  
+	  <h1 class="page__title">Фотографии пользователей</h1>
+		
+      <section class="photo">
+		<p>Взгляните на&nbsp;фотографии, которые выкладывают пользователи!</p>
+		<p>Видите, как не&nbsp;хватает ваших?</p>
+		  
+		<div class="photo__wrapper">
+          <div class="photo__list">
+            <blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image photo__image--panorama" src="img/picture_1.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Анна</cite>
+			  <time class="photo__time">(5 минут назад)</time>
+              <p class="photo__text">Прыгать или&nbsp;нет? Напишите в&nbsp;комментарии свой совет и&nbsp;смотрите прямую трансляцию в&nbsp;перископе, задавайте свои вопросы!</p>
+			  <p class="photo__like">
+				<a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 215</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_2.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Левон</cite>
+			  <time class="photo__time">(5 часов назад)</time>
+              <p class="photo__text">Вчера он&nbsp;на&nbsp;луну летал, сегодня в&nbsp;руки к&nbsp;нам попал.</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 356</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_3.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Антон</cite>
+			  <time class="photo__time">(12 часов назад)</time>
+              <p class="photo__text">Соседи будут рады!</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 666</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_3.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Борис</cite>
+			  <time class="photo__time">(20 часов назад)</time>
+              <p class="photo__text">Здесь могла быть ваша цитата о&nbsp;высоком и&nbsp;вечном.</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 215</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_3.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Сергей</cite>
+			  <time class="photo__time">(25 часов назад)</time>
+              <p class="photo__text">Самая кубанская в&nbsp;мире!</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 4</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_3.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Максим</cite>
+			  <time class="photo__time">(40 часов назад)</time>
+              <p class="photo__text">Где снег-то?</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 150</span>
+              </p>
+            </blockquote>
+			<blockquote class="photo__item">
+			  <a class="photo__link photo__link--foolsize" href="#">
+                <img class="photo__image" src="img/picture_3.jpg" width=" " height=" " alt="Фотография">
+			  </a>
+              <cite class="photo__author-name">Надежда</cite>
+			  <time class="photo__time">(45 часов назад)</time>
+              <p class="photo__text">Всем GM&nbsp;и&nbsp;взаимные лайки!</p>
+			  <p class="photo__like">
+                <a class="button photo__like-click " href="#">
+                  <img class="photo__like-image" src="img/ico_like.jpg" width=" " height=" " alt="Нравится">
+				</a>
+				<span class="photo__like-sum">Нравится: 2560</span>
+              </p>
+            </blockquote>
+          </div>
+        </div>  
+		  
+		<!--p>Затмите их всех!</p> 
+		<p>Выкладывайте все, что накопилось в телефоне!</p--> 
+      </section>
+
+    </main>
+	  
+	<footer class="page-footer">
+      <div class="page-footer__wrapper">
+		<a class="page-footer__logo">
+          <img class="page-footer__logo-image" src="img/logotype-img.svg" width=" " height=" " alt="Pink">
+		  <img class="page-footer__logo-name" src="img/logotype-name.svg" width=" " height=" " alt="Pink">
+      	</a>
+        <div class="page-footer__social social">
+          <h2 class="visually-hidden">Давайте дружить</h2>
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--twitter" href="#">Мы в Твитере</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="#">Мы на Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--youtube" href="#">Мы на Ютьюбе</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+
+  </body>
+</html>
